@@ -86,10 +86,11 @@ img {
     font-size: 25px;
     color: white;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
     }
     .sidebar a:hover {
     color: black;
+    transition: .5s;
     }
     .sidebar .closeBurger {
     position: absolute;
