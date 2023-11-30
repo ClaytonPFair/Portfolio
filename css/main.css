@@ -397,7 +397,7 @@ nav a:hover,
 }
 
 .General_Container_featured_item {
-  max-width: 800px;
+  max-width: 1000px;
  
     padding: .5em;  
     display: flex;
@@ -434,6 +434,19 @@ nav a:hover,
 
 @media (max-width: 480px) {
   .img_grid_container {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+.video_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .video_grid_container {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
