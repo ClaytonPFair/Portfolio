@@ -1,3 +1,13 @@
+.text_wrapper{
+width: 100%;
+position: relative;
+top: 40%;
+}
+
+*{
+  padding: 0 ;
+  margin: 0;
+}
 
 img {
     max-width: 100%;
@@ -420,7 +430,10 @@ nav a:hover,
 .Home_img_grid_container:hover{
     opacity: 50%;
 }
-
+.Home_img_grid_container img{
+  width: 100%;
+  margin-top: -10%;
+}
 .Home_img_grid_container{
     width:100%
 }
