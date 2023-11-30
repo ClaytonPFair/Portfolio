@@ -476,6 +476,12 @@ nav a:hover,
    column-gap: 0;
   }
 }
+.General_Container_default_wrapper{
+height: 100%;
+width: auto;
+padding-right: 10vh;
+padding-left: 10vh;
+}
 
 .General_Container_default_title {
   
