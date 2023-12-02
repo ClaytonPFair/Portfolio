@@ -173,7 +173,8 @@ h1 {
 
 h2 {
   font-size: 2.441rem;
-  color: yellow;
+  color: black;
+  background-color: #c4c3c3;
 }
 
 h3 {
@@ -492,8 +493,8 @@ nav a:hover,
 .General_Container_default_wrapper{
 height: 100%;
 width: auto;
-padding-right: 10vh;
-padding-left: 10vh;
+padding-right: 25vh;
+padding-left: 25vh;
 }
 
 .General_Container_default_title {
