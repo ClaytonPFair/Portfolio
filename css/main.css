@@ -174,11 +174,11 @@ h1 {
 h2 {
   font-size: 2.441rem;
   color: black;
-  background-color: #c4c3c3;
+  background-color: yellow;
 }
 
 h3 {
-  font-size: 1.953rem;
+  color: yellow;
 }
 
 h4 {
@@ -188,13 +188,16 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
-
+h6{
+  font-size: 3.25vh;
+  color: yellow;
+}
 /* media query for phones */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   body {
     background-color: teal;
   }
-}
+}*/
 
 /* media query for desktop */
 @media (min-width: 768px) {
@@ -209,6 +212,7 @@ label {
 
 p {
   line-height: 1.6;
+  font-size: large;
 }
 
 h1,
@@ -241,6 +245,7 @@ form {
   /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
+  padding: 2vh;
 }
 
 .active {
